@@ -1,0 +1,56 @@
+Atom 아톰 단축키
+Atom 아톰 단축키
+
+설정 : Ctrl - ,
+
+Ctrl - \ : 왼쪽 트리창이 열리거나 닫힌다
+
+커맨드창 단축키 : ctrl + shift + P
+
+언어창 단축키 : ctrl + shitf + L
+
+주석 : Ctrl + /
+
+열모드 : Ctrl + Alt
+
+find in project : ctrl + shift + f
+
+ctrl-alt-i : 개발 툴
+
+ctrl-x : 라인 자르기. 선택시 해당 부분만 잘라내기
+ctrl-c : 라인 복사. 선택시 해당 부분만 복사
+ctrl-v : 붙여 넣기
+
+ctrl-backspace : 단어 맨앞까지 삭제
+ctrl-delete : 단어의 맨 끝까지 삭제
+ctrl-home : 파일 맨 처음으로 이동
+ctrl-end : 파일 맨 마지막으로 이,
+ctrl-shift-home : 커서가 위치한 곳부터 파일 맨 처음까지 선택
+ctrl-shift-end : 커서가 위치한 곳부터 파일 맨 마지막까지 선택
+
+ctrl-l : 줄 전체 선택.
+ctrl-shift-d : 현재 줄 또는 선택된 줄 복제
+ctrl-shift-k : 줄 삭제
+
+ctrl-k ctrl-u : 커서가 위치한 단어를 대문자로 바꿈
+ctrl-k ctrl-l : 커서가 위치한 단어를 소문자로 바꿈
+
+ctrl-enter : 아래 쪽에 빈 줄을 생성하고 커서를 맨앞에 위치시킴
+ctrl-shift-enter : 윗 쪽에 빈 줄을 생성하고 커서를 맨앞에 위치시킴
+
+ctrl-up : 현재 줄을 위로 올림
+ctrl-down : 현재 줄을 아래로 내림
+
+ctrl-/ : 주석 설정/해제
+
+ctrl-] : 현 줄 또는 선택한 줄 들여쓰기
+ctrl-[ : 현 줄 또는 선택한 줄 내여쓰기
+
+ctrl-m : 현재 커서가 위치한 블럭의 시작/끝 괄호로 이동
+ctrl-alt-m : 커서가 있는 블럭을 선택
+
+ctrl-alt-[ : 커서가 있는 블록 접기
+ctrl-alt-] : 커서가 있는 블록 펴기
+
+ctrl-alt-shift-[ : 커서가 있는 최상위 블록 접기
+ctrl-alt-shift-] : 커서가 있는 최상위 블록 펴기
