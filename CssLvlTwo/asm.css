@@ -1,0 +1,33 @@
+h1{
+  /*font-size: 14px;*/
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*table{
+  margin: auto;
+}*/
+.art{
+  margin: auto;
+}
+
+td{
+  background-color: black;
+  width: 150px;
+  height: 300px
+}
+#one{
+  background-color: #2EC0F9;
+}
+#two{
+  background-color: #67AAF9;
+}
+#three{
+  background-color: #9BBDF9;
+}
+#four{
+  background-color: #C4E0F9;
+}
+#five{
+  background-color: #B95F89;
+}
