@@ -24,7 +24,16 @@
 // sleepIn(false, true) → true
 
 function sleepIn(weekday, vacation) {
-    //Code Goes Here
+
+  // if (weekday === false && vacation === false)
+  //   return true;
+  // if (weekday === true && vacation === false)
+  //   return false;
+  // if (weekday === false && vacation === true)
+  //   return true;
+  //     //Code Goes Here
+  return (!weekday || vacation)
+
 }
 
 
@@ -42,7 +51,16 @@ function sleepIn(weekday, vacation) {
 // monkeyTrouble(true, false) → false
 
 function monkeyTrouble(aSmile, bSmile) {
-    //Code Goes Here
+    // //Code Goes Here
+    // if (aSmile === true && bSmile === true)
+    //   return true;
+    //
+    // if (aSmile === true && bSmile === true)
+    //   return true;
+    //
+    // if (aSmile === true && bSmile === true)
+    //   return false;
+    return (aSmile && bSmile) || (!aSmile && !bSmile)
 }
 
 
@@ -60,6 +78,18 @@ function monkeyTrouble(aSmile, bSmile) {
 
 function stringTimes(str, n) {
     //Code Goes Here
+    // while(n>=1){
+    //   alert("Hi")
+    //   n --;
+    // }
+    var returnstr = ""
+    var i = 0;
+    while (i<n){
+      returnstr.add(str)
+      i++
+    }
+    return returnstr
+
 }
 
 // PROBLEM 4: LUCKY SUM
@@ -77,8 +107,27 @@ function stringTimes(str, n) {
 // luckySum(1, 13, 3) → 1
 
 function luckySum(a, b, c){
-
+  //   var sum = 0
+  // if ( a !== 13){
+  //   var sum += a;
+  // }else
+    // var sum = a+b+c;
+    // if(a == 13){sum = 0 }
+    // if(b == 13 ){sum = sum -b -c ; }
+    // if(c == 13 ){sum = sum -c }
+    // return sum;
   //Code Goes Here
+
+  if ( a === 13){
+    return 0
+  }else if ( b === 13 ){
+    return a
+  }else if ( c === 13 ){
+    return a+b
+  }else {
+    return a+b+c
+  }
+
 }
 
 // PROBLEM 5:
@@ -96,9 +145,35 @@ function luckySum(a, b, c){
 // caught_speeding(65, true) → 0
 
 function caught_speeding(speed, is_birthday){
-  //Code Goes Here
-}
 
+  // var ticket = 0
+  // var speedLimitOne = 60
+  // var speedLimitTwo = 80
+  //
+  // if (is_birthday){
+  //   speedLimitOne += 5;
+  //   speedLimitTwo += 5;
+  // }
+  //
+  // if ( speed <= speedLimitOne ){    ticket = 0   }
+  // if ( speed > speedLimitOne && speed <= speedLimitTwo ){       ticket = 1  }
+  // if ( speed > speedLimitTwo ){    ticket = 2  }
+  // return ticket;
+  //Code Goes Here
+  if ( is_birthday){
+    speed -=5
+  }
+  if (speed <=60){
+    return 0
+  }
+  if ( 60 < speed <= 80 ){
+    return 1
+  }
+  return 2
+
+
+
+}
 
 // BONUS: MAKE BRICKS
 //
@@ -115,4 +190,5 @@ function caught_speeding(speed, is_birthday){
 
 function makeBricks(small, big, goal){
   //Code Goes Here
+  return goal%5 >= 0 && goal%5 - small <=0 && small + 5*big >= goal;
 }
